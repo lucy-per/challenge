@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Vanilla Challenge</title>
+  </head>
+  <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <h2 id="clock"></h2>
+
+    <form id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="나의 이름은..."
+        id="inputNmae"
+      />
+      <button>입니다</button>
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+
+    <div class="todo_box">
+      <form id="todo-form">
+        <input
+          id="inputToDo"
+          type="text"
+          placeholder="나는 반드시 ...을"
+          required
+        />
+        <button>해낸다</button>
+      </form>
+
+      <ul id="todo-list"></ul>
+    </div>
+
+    <div id="quotes">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
