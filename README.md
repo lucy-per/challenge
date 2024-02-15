@@ -1,2 +1,2 @@
 # lucy-per.github.io
-vanilla challenge final
+vanilla challenge final 제출 과제
